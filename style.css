@@ -1,0 +1,63 @@
+
+main{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#name{
+    width:100%;
+    height:auto;
+    color: brown;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+ 
+    border: 1px solid #F2D2BD;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:10px;
+    
+}
+.summary{
+    width:100%;
+    height:auto;
+}
+
+.icon{
+    height: 20px;
+    width:auto;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+.icon:hover{
+    transform: scale(1.2)
+}
+button{
+    background-color:rgb(237, 195, 218);
+    border-radius: 5px;
+
+}
+
+button:hover{
+    transform: scale(1.2)
+}
+div ul{
+    text-align:left
+}
+
+.buttonContainer{
+    font-weight:bold;
+    padding:10px;
+}
+
+#workContent{
+    display: none;
+    width: 100vw;
+    height:auto;
+}
