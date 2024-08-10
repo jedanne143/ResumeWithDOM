@@ -5,13 +5,24 @@ main{
     width: 100%;
     height: auto;
 }
+#picture{
+    height: 150px;
+    width:auto;
+    border-radius: 50%;
+    margin:10px
+}
+#topContainer{
+    display: flex;
+    flex-direction: row;
 
+}
 #name{
     width:100%;
     height:auto;
     color: brown;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .container{
@@ -27,6 +38,7 @@ main{
 .summary{
     width:100%;
     height:auto;
+    margin-bottom:10px;
 }
 
 .icon{
@@ -39,7 +51,8 @@ main{
     transform: scale(1.2)
 }
 button{
-    background-color:rgb(237, 195, 218);
+    background-color:rgb(129, 28, 28);
+    color:white;
     border-radius: 5px;
 
 }
